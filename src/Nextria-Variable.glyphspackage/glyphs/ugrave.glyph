@@ -1,0 +1,87 @@
+{
+glyphname = ugrave;
+kernLeft = u;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = u;
+},
+{
+alignment = -1;
+pos = (26,0);
+ref = grave;
+}
+);
+width = 559;
+},
+{
+layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (569,0);
+ref = grave;
+}
+);
+width = 1069;
+},
+{
+layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (570,0);
+ref = grave;
+}
+);
+width = 1070;
+},
+{
+layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (559,0);
+ref = grave;
+}
+);
+width = 1059;
+},
+{
+layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (553,0);
+ref = grave;
+}
+);
+width = 1053;
+},
+{
+layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
+shapes = (
+{
+ref = u;
+},
+{
+pos = (553,0);
+ref = grave;
+}
+);
+width = 1053;
+}
+);
+unicode = 249;
+}

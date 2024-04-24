@@ -1,0 +1,86 @@
+{
+export = 0;
+glyphname = Ncaron.alt;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+alignment = -1;
+ref = N.alt;
+},
+{
+alignment = -1;
+pos = (268,185);
+ref = caron;
+}
+);
+width = 864;
+},
+{
+layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
+shapes = (
+{
+ref = N.alt;
+},
+{
+pos = (872,0);
+ref = caron;
+}
+);
+width = 1372;
+},
+{
+layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
+shapes = (
+{
+ref = N.alt;
+},
+{
+pos = (872,0);
+ref = caron;
+}
+);
+width = 1372;
+},
+{
+layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
+shapes = (
+{
+ref = N.alt;
+},
+{
+pos = (864,0);
+ref = caron;
+}
+);
+width = 1364;
+},
+{
+layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
+shapes = (
+{
+ref = N.alt;
+},
+{
+pos = (859,0);
+ref = caron;
+}
+);
+width = 1359;
+},
+{
+layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
+shapes = (
+{
+ref = N.alt;
+},
+{
+pos = (859,0);
+ref = caron;
+}
+);
+width = 1359;
+}
+);
+}

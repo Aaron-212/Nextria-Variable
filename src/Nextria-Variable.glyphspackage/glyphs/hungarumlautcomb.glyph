@@ -1,0 +1,120 @@
+{
+glyphname = hungarumlautcomb;
+layers = (
+{
+anchors = (
+{
+name = _top;
+pos = (295,487);
+},
+{
+name = top;
+pos = (295,745);
+}
+);
+layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
+shapes = (
+{
+ref = hungarumlaut;
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (338,487);
+},
+{
+name = top;
+pos = (383,745);
+}
+);
+layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
+shapes = (
+{
+ref = hungarumlaut;
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (292,495);
+},
+{
+name = top;
+pos = (292,745);
+}
+);
+layerId = master01;
+shapes = (
+{
+ref = hungarumlaut;
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (334,495);
+},
+{
+name = top;
+pos = (378,745);
+}
+);
+layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
+shapes = (
+{
+ref = hungarumlaut;
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (287,507);
+},
+{
+name = top;
+pos = (287,745);
+}
+);
+layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
+shapes = (
+{
+ref = hungarumlaut;
+}
+);
+width = 500;
+},
+{
+anchors = (
+{
+name = _top;
+pos = (331,507);
+},
+{
+name = top;
+pos = (373,745);
+}
+);
+layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
+shapes = (
+{
+ref = hungarumlaut;
+}
+);
+width = 500;
+}
+);
+unicode = 779;
+}

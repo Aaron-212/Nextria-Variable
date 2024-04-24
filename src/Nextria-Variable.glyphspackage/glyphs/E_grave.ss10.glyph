@@ -1,0 +1,84 @@
+{
+glyphname = Egrave.ss10;
+kernRight = E;
+layers = (
+{
+layerId = master01;
+shapes = (
+{
+ref = E.ss10;
+},
+{
+pos = (219,185);
+ref = gravecomb;
+}
+);
+width = 705;
+},
+{
+layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
+shapes = (
+{
+ref = E.ss10;
+},
+{
+pos = (249,173);
+ref = gravecomb;
+}
+);
+width = 725;
+},
+{
+layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
+shapes = (
+{
+ref = E.ss10;
+},
+{
+pos = (280,173);
+ref = gravecomb;
+}
+);
+width = 725;
+},
+{
+layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
+shapes = (
+{
+ref = E.ss10;
+},
+{
+pos = (252,185);
+ref = gravecomb;
+}
+);
+width = 705;
+},
+{
+layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
+shapes = (
+{
+ref = E.ss10;
+},
+{
+pos = (225,193);
+ref = gravecomb;
+}
+);
+width = 692;
+},
+{
+layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
+shapes = (
+{
+ref = E.ss10;
+},
+{
+pos = (259,193);
+ref = gravecomb;
+}
+);
+width = 692;
+}
+);
+}
