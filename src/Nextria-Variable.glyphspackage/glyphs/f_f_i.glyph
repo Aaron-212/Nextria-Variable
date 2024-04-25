@@ -3,6 +3,16 @@ glyphname = f_f_i;
 kernLeft = f;
 layers = (
 {
+anchors = (
+{
+name = caret_1;
+pos = (371,0);
+},
+{
+name = caret_2;
+pos = (702,0);
+}
+);
 layerId = master01;
 shapes = (
 {
@@ -60,6 +70,16 @@ nodes = (
 width = 889;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (371,0);
+},
+{
+name = caret_2;
+pos = (698,0);
+}
+);
 layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
 shapes = (
 {
@@ -117,6 +137,16 @@ nodes = (
 width = 907;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (331,0);
+},
+{
+name = caret_2;
+pos = (650,0);
+}
+);
 layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
 shapes = (
 {
@@ -174,6 +204,16 @@ nodes = (
 width = 907;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (331,0);
+},
+{
+name = caret_2;
+pos = (652,0);
+}
+);
 layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
 shapes = (
 {
@@ -231,6 +271,16 @@ nodes = (
 width = 889;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (371,0);
+},
+{
+name = caret_2;
+pos = (702,0);
+}
+);
 layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
 shapes = (
 {
@@ -288,6 +338,16 @@ nodes = (
 width = 877;
 },
 {
+anchors = (
+{
+name = caret_1;
+pos = (331,0);
+},
+{
+name = caret_2;
+pos = (662,0);
+}
+);
 layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
 shapes = (
 {
