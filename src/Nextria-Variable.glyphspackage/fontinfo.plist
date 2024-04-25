@@ -189,7 +189,9 @@ tag = frac;
 },
 {
 automatic = 1;
-code = "sub N o period by numero;
+code = "sub [zero one two three four five six seven eight nine] [A a]' by ordfeminine;
+sub [zero one two three four five six seven eight nine] [O o]' by ordmasculine;
+sub N o period by numero;
 ";
 tag = ordn;
 },
@@ -1955,6 +1957,7 @@ sub gbreve by gbreve.ss01;
 sub gcircumflex by gcircumflex.ss01;
 sub gcommaaccent by gcommaaccent.ss01;
 sub gdotaccent by gdotaccent.ss01;
+sub ordfeminine by ordfeminine.ss01;
 sub ampersand by ampersand.ss01;
 ";
 labels = (
