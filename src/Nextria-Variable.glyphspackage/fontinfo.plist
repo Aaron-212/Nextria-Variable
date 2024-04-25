@@ -20,6 +20,14 @@ customParameters = (
 name = fsType;
 value = (
 );
+},
+{
+name = "Variable Font Origin";
+value = master01;
+},
+{
+name = "Use Typo Metrics";
+value = 1;
 }
 );
 date = "2024-04-23 15:42:09 +0000";
@@ -59,13 +67,11 @@ feature ss10;
 tag = aalt;
 },
 {
-automatic = 1;
-code = "lookup ccmp_Other_1 {
-	@CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb hungarumlautcomb macroncomb ringcomb tildecomb];
-	lookupflag UseMarkFilteringSet @CombiningTopAccents;
-	sub i' @CombiningTopAccents by idotless;
-	sub j' @CombiningTopAccents by jdotless;
-} ccmp_Other_1;
+code = "lookup ccmp_soft_dotted {
+    @CombiningTopAccents = [acutecomb brevecomb caroncomb circumflexcomb dieresiscomb dotaccentcomb gravecomb macroncomb ringcomb tildecomb hungarumlautcomb];
+    lookupflag UseMarkFilteringSet @CombiningTopAccents;
+    sub [i j iogonek]' @CombiningTopAccents by [idotless jdotless idotless_ogonekcomb];
+} ccmp_soft_dotted;
 ";
 tag = ccmp;
 },
@@ -2029,7 +2035,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 976;
+value = 977;
 },
 {
 name = hheaDescender;
@@ -2061,7 +2067,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 976;
+value = 977;
 },
 {
 name = typoDescender;
@@ -2108,7 +2114,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 976;
+value = 977;
 },
 {
 name = hheaDescender;
@@ -2140,7 +2146,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 976;
+value = 977;
 },
 {
 name = typoDescender;
@@ -2188,7 +2194,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 976;
+value = 977;
 },
 {
 name = hheaDescender;
@@ -2220,7 +2226,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 976;
+value = 977;
 },
 {
 name = typoDescender;
@@ -2266,7 +2272,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 976;
+value = 977;
 },
 {
 name = hheaDescender;
@@ -2298,7 +2304,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 976;
+value = 977;
 },
 {
 name = typoDescender;
@@ -2345,7 +2351,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 976;
+value = 977;
 },
 {
 name = hheaDescender;
@@ -2377,7 +2383,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 976;
+value = 977;
 },
 {
 name = typoDescender;
@@ -2424,7 +2430,7 @@ axesValues = (
 customParameters = (
 {
 name = hheaAscender;
-value = 976;
+value = 977;
 },
 {
 name = hheaDescender;
@@ -2456,7 +2462,7 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 976;
+value = 977;
 },
 {
 name = typoDescender;
@@ -2512,9 +2518,8 @@ axesValues = (
 -10,
 0
 );
-isItalic = 1;
 linkStyle = ExtraLight;
-name = "ExtraLight Italic";
+name = "ExtraLight Slant";
 weightClass = 200;
 },
 {
@@ -2532,9 +2537,8 @@ axesValues = (
 -10,
 0
 );
-isItalic = 1;
 linkStyle = Light;
-name = "Light Italic";
+name = "Light Slant";
 weightClass = 300;
 },
 {
@@ -2551,9 +2555,8 @@ axesValues = (
 -10,
 0
 );
-isItalic = 1;
 linkStyle = Regular;
-name = Italic;
+name = Slant;
 },
 {
 axesValues = (
@@ -2570,9 +2573,8 @@ axesValues = (
 -10,
 0
 );
-isItalic = 1;
 linkStyle = Medium;
-name = "Medium Italic";
+name = "Medium Slant";
 weightClass = 500;
 },
 {
@@ -2590,9 +2592,8 @@ axesValues = (
 -10,
 0
 );
-isItalic = 1;
 linkStyle = SemiBold;
-name = "SemiBold Italic";
+name = "SemiBold Slant";
 weightClass = 600;
 },
 {
@@ -2612,9 +2613,8 @@ axesValues = (
 0
 );
 isBold = 1;
-isItalic = 1;
 linkStyle = Bold;
-name = "Bold Italic";
+name = "Bold Slant";
 weightClass = 700;
 }
 );
@@ -11161,20 +11161,20 @@ value = Aaron212;
 },
 {
 key = designerURL;
-value = "http://aaron212.top/";
+value = "https://aaron212.top/";
 },
 {
 key = licenses;
 values = (
 {
 language = dflt;
-value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: https://scripts.sil.org/OFL";
 }
 );
 },
 {
 key = licenseURL;
-value = "http://scripts.sil.org/OFL";
+value = "https://scripts.sil.org/OFL";
 },
 {
 key = manufacturers;
@@ -11187,14 +11187,14 @@ value = Aaron212;
 },
 {
 key = manufacturerURL;
-value = "http://aaron212.top/";
+value = "https://aaron212.top/";
 },
 {
 key = sampleTexts;
 values = (
 {
 language = dflt;
-value = "The quick brown fox jumps over the lazy dog";
+value = "The quick brown fox jumps over the lazy dog.";
 }
 );
 },

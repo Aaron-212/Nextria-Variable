@@ -19,13 +19,13 @@ wghtAxisLabels = [
 dsfile.getAxisByTag("wght").axisLabels = wghtAxisLabels
 
 slntAxisLabels = [
-    AxisLabelDescriptor(name="Regular", userValue=0, userMinimum=-5, userMaximum=0, elidable=True),
+    AxisLabelDescriptor(name="Default", userValue=0, userMinimum=-5, userMaximum=0, elidable=True),
     AxisLabelDescriptor(name="Slant", userValue=-10, userMinimum=-10, userMaximum=-5),
 ]
 dsfile.getAxisByTag("slnt").axisLabels = slntAxisLabels
 
 SRIFAxisLabels = [
-    AxisLabelDescriptor(name="Regular", userValue=0, userMinimum=0, userMaximum=0.1, elidable=True),
+    AxisLabelDescriptor(name="Default", userValue=0, userMinimum=0, userMaximum=0.1, elidable=True),
     AxisLabelDescriptor(name="Flare", userValue=0.2, userMinimum=0.1, userMaximum=0.3),
     AxisLabelDescriptor(name="Serif", userValue=1, userMinimum=0.3, userMaximum=1),
 ]

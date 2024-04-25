@@ -1,0 +1,83 @@
+{
+glyphname = itilde_ogonekcomb;
+layers = (
+{
+layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
+shapes = (
+{
+ref = itilde;
+},
+{
+pos = (-184,0);
+ref = ogonekcomb;
+}
+);
+width = 250;
+},
+{
+layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
+shapes = (
+{
+ref = itilde;
+},
+{
+pos = (-184,0);
+ref = ogonekcomb;
+}
+);
+width = 250;
+},
+{
+layerId = master01;
+shapes = (
+{
+ref = itilde;
+},
+{
+pos = (-169,0);
+ref = ogonekcomb;
+}
+);
+width = 259;
+},
+{
+layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
+shapes = (
+{
+ref = itilde;
+},
+{
+pos = (-168,0);
+ref = ogonekcomb;
+}
+);
+width = 259;
+},
+{
+layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
+shapes = (
+{
+ref = itilde;
+},
+{
+pos = (-145,0);
+ref = ogonekcomb;
+}
+);
+width = 273;
+},
+{
+layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
+shapes = (
+{
+ref = itilde;
+},
+{
+pos = (-145,0);
+ref = ogonekcomb;
+}
+);
+width = 273;
+}
+);
+}
