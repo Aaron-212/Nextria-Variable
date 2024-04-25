@@ -29,7 +29,7 @@ build.stamp: init.stamp
 
 zip: build.stamp
 	cp -rf fonts NextriaVariable
-	zip -r Nextria.zip NextriaVariable
+	zip -r NextriaVariable.zip NextriaVariable
 	rm -rf NextriaVariable
 
 
