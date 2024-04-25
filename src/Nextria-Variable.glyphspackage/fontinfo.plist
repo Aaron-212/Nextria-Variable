@@ -15,13 +15,6 @@ name = Serif;
 tag = SRIF;
 }
 );
-classes = (
-{
-automatic = 1;
-code = "A Aacute Abreve Acircumflex Adieresis Agrave Amacron Aogonek Aring Atilde AE B C Cacute Ccaron Ccedilla Ccircumflex Cdotaccent D Dcaron Dcroat Eth E Eacute Ebreve Ecaron Ecircumflex Edieresis Edotaccent Egrave Emacron Eogonek F G Gbreve Gcircumflex Gcommaaccent Gdotaccent H Hbar Hcircumflex I IJ Iacute Ibreve Icircumflex Idieresis Idotaccent Igrave Imacron Iogonek Itilde J Jcircumflex K Kcommaaccent L Lacute Lcaron Lcommaaccent Ldot Lslash M N Nacute Ncaron Ncommaaccent Ntilde Eng O Oacute Obreve Ocircumflex Odieresis Ograve Ohungarumlaut Omacron Oslash Otilde OE P Thorn Q R Racute Rcaron Rcommaaccent S Sacute Scaron Scedilla Scircumflex Scommaaccent Germandbls T Tbar Tcaron Tcedilla Tcommaaccent U Uacute Ubreve Ucircumflex Udieresis Ugrave Uhungarumlaut Umacron Uogonek Uring Utilde V W Wacute Wcircumflex Wdieresis Wgrave X Y Yacute Ycircumflex Ydieresis Ygrave Z Zacute Zcaron Zdotaccent kgreenlandic.case napostrophe.case A.ss10 Aacute.ss10 Abreve.ss10 Acircumflex.ss10 Adieresis.ss10 Agrave.ss10 Amacron.ss10 Aogonek.ss10 Aring.ss10 Atilde.ss10 B.ss10 D.ss10 Dcaron.ss10 E.ss10 Eacute.ss10 Ebreve.ss10 Ecaron.ss10 Ecircumflex.ss10 Edieresis.ss10 Edotaccent.ss10 Egrave.ss10 Emacron.ss10 Eogonek.ss10 F.ss10 G.ss10 Gbreve.ss10 Gcircumflex.ss10 Gdotaccent.ss10 M.ss10 P.ss10 T.ss10 Tbar.ss10 Tcaron.ss10 Tcedilla.ss10 Tcommaaccent.ss10 U.ss10 Uacute.ss10 Ubreve.ss10 Ucircumflex.ss10 Udieresis.ss10 Ugrave.ss10 Uhungarumlaut.ss10 Umacron.ss10 Uogonek.ss10 Uring.ss10 Utilde.ss10 V.ss10 X.ss10 a aacute abreve acircumflex adieresis agrave amacron aogonek aring atilde ae b c cacute ccaron ccedilla ccircumflex cdotaccent d dcaron dcroat eth e eacute ebreve ecaron ecircumflex edieresis edotaccent egrave emacron eogonek f g gbreve gcircumflex gcommaaccent gdotaccent h hbar hcircumflex i idotless iacute ibreve icircumflex idieresis igrave imacron iogonek itilde ij j jdotless jcircumflex k kcommaaccent kgreenlandic l lacute lcaron lcommaaccent ldot lslash m n nacute napostrophe ncaron ncommaaccent ntilde eng o oacute obreve ocircumflex odieresis ograve ohungarumlaut omacron oslash otilde oe p thorn q r racute rcaron rcommaaccent s sacute scaron scedilla scircumflex scommaaccent germandbls t tbar tcaron tcedilla tcommaaccent u uacute ubreve ucircumflex udieresis ugrave uhungarumlaut umacron uogonek uring utilde v w wacute wcircumflex wdieresis wgrave x y yacute ycircumflex ydieresis ygrave z zacute zcaron zdotaccent i.dot f_b f_f f_f_b f_f_f f_f_h f_f_i f_f_j f_f_k f_f_l f_f_t f_h f_i f_j f_k f_l f_t pi zero one two three four five six seven eight nine zero.osf one.osf two.osf three.osf four.osf five.osf six.osf seven.osf eight.osf nine.osf zero.tf one.tf two.tf three.tf four.tf five.tf six.tf seven.tf eight.tf nine.tf zero.dnom one.dnom two.dnom three.dnom four.dnom five.dnom six.dnom seven.dnom eight.dnom nine.dnom zero.numr one.numr two.numr three.numr four.numr five.numr six.numr seven.numr eight.numr nine.numr fraction onehalf onethird twothirds onequarter threequarters onefifth twofifths threefifths fourfifths onesixth fivesixths oneseventh twosevenths threesevenths foursevenths fivesevenths sixsevenths oneeighth threeeighths fiveeighths seveneighths oneninth twoninths fourninths fiveninths sevenninths eightninths zeroinferior oneinferior twoinferior threeinferior fourinferior fiveinferior sixinferior seveninferior eightinferior nineinferior zerosuperior onesuperior twosuperior threesuperior foursuperior fivesuperior sixsuperior sevensuperior eightsuperior ninesuperior space nbspace CR period comma colon semicolon ellipsis exclam exclamdown question questiondown periodcentered bullet asterisk numbersign slash backslash exclamdown.case questiondown.case hyphen softhyphen endash emdash underscore hyphen.case endash.case emdash.case parenleft parenright braceleft braceright bracketleft bracketright parenleft.case parenright.case braceleft.case braceright.case bracketleft.case bracketright.case quotesinglbase quotedblbase quotedblleft quotedblright quoteleft quoteright guillemetleft guillemetright guilsinglleft guilsinglright quotedbl quotesingle guillemetleft.case guillemetright.case guilsinglleft.case guilsinglright.case florin at ampersand paragraph section copyright registered trademark degree bar brokenbar dagger literSign daggerdbl estimated numero at.case bar.case brokenbar.case cent currency dollar euro rupeeIndian sterling yen divisionslash plus minus multiply divide equal notequal greater less greaterequal lessequal plusminus approxequal logicalnot asciitilde asciicircum infinity integral Ohm increment product summation radical partialdiff micro percent perthousand upArrow northEastArrow rightArrow southEastArrow downArrow southWestArrow leftArrow northWestArrow leftRightArrow upDownArrow lozenge dieresiscomb dotaccentcomb gravecomb acutecomb hungarumlautcomb caroncomb.alt circumflexcomb caroncomb brevecomb ringcomb tildecomb macroncomb commaaccentcomb cedillacomb ogonekcomb dieresis dotaccent grave acute hungarumlaut circumflex caron breve ring tilde macron cedilla ogonek caron.alt _part.initL revcommaaccent";
-name = All;
-}
-);
 customParameters = (
 {
 name = fsType;
@@ -47,57 +40,23 @@ name = Languagesystems;
 features = (
 {
 automatic = 1;
-code = "feature case;
+code = "feature locl;
 feature subs;
 feature sinf;
 feature sups;
 feature numr;
 feature dnom;
+feature frac;
 feature ordn;
 feature lnum;
 feature pnum;
 feature tnum;
 feature onum;
-feature locl;
-feature frac;
+feature case;
+feature ss01;
 feature ss10;
 ";
 tag = aalt;
-},
-{
-automatic = 1;
-code = "sub kgreenlandic by kgreenlandic.case;
-sub napostrophe by napostrophe.case;
-sub exclamdown by exclamdown.case;
-sub questiondown by questiondown.case;
-sub hyphen by hyphen.case;
-sub endash by endash.case;
-sub emdash by emdash.case;
-sub parenleft by parenleft.case;
-sub parenright by parenright.case;
-sub braceleft by braceleft.case;
-sub braceright by braceright.case;
-sub bracketleft by bracketleft.case;
-sub bracketright by bracketright.case;
-sub guillemetleft by guillemetleft.case;
-sub guillemetright by guillemetright.case;
-sub guilsinglleft by guilsinglleft.case;
-sub guilsinglright by guilsinglright.case;
-sub at by at.case;
-sub bar by bar.case;
-sub brokenbar by brokenbar.case;
-sub zero.osf by zero;
-sub one.osf by one;
-sub two.osf by two;
-sub three.osf by three;
-sub four.osf by four;
-sub five.osf by five;
-sub six.osf by six;
-sub seven.osf by seven;
-sub eight.osf by eight;
-sub nine.osf by nine;
-";
-tag = case;
 },
 {
 automatic = 1;
@@ -287,6 +246,58 @@ sub eight by eight.osf;
 sub nine by nine.osf;
 ";
 tag = onum;
+},
+{
+automatic = 1;
+code = "sub kgreenlandic by kgreenlandic.case;
+sub napostrophe by napostrophe.case;
+sub exclamdown by exclamdown.case;
+sub questiondown by questiondown.case;
+sub hyphen by hyphen.case;
+sub endash by endash.case;
+sub emdash by emdash.case;
+sub parenleft by parenleft.case;
+sub parenright by parenright.case;
+sub braceleft by braceleft.case;
+sub braceright by braceright.case;
+sub bracketleft by bracketleft.case;
+sub bracketright by bracketright.case;
+sub guillemetleft by guillemetleft.case;
+sub guillemetright by guillemetright.case;
+sub guilsinglleft by guilsinglleft.case;
+sub guilsinglright by guilsinglright.case;
+sub at by at.case;
+sub bar by bar.case;
+sub brokenbar by brokenbar.case;
+sub zero.osf by zero;
+sub one.osf by one;
+sub two.osf by two;
+sub three.osf by three;
+sub four.osf by four;
+sub five.osf by five;
+sub six.osf by six;
+sub seven.osf by seven;
+sub eight.osf by eight;
+sub nine.osf by nine;
+";
+tag = case;
+},
+{
+automatic = 1;
+code = "lookupflag IgnoreMarks;
+sub f f b by f_f_b;
+sub f f f by f_f_f;
+sub f f h by f_f_h;
+sub f f j by f_f_j;
+sub f f k by f_f_k;
+sub f f t by f_f_t;
+sub f b by f_b;
+sub f h by f_h;
+sub f j by f_j;
+sub f k by f_k;
+sub f t by f_t;
+";
+tag = dlig;
 },
 {
 automatic = 1;
@@ -1923,20 +1934,30 @@ tag = kern;
 },
 {
 automatic = 1;
-code = "lookupflag IgnoreMarks;
-sub f f b by f_f_b;
-sub f f f by f_f_f;
-sub f f h by f_f_h;
-sub f f j by f_f_j;
-sub f f k by f_f_k;
-sub f f t by f_f_t;
-sub f b by f_b;
-sub f h by f_h;
-sub f j by f_j;
-sub f k by f_k;
-sub f t by f_t;
+code = "sub a by a.ss01;
+sub aacute by aacute.ss01;
+sub abreve by abreve.ss01;
+sub acircumflex by acircumflex.ss01;
+sub adieresis by adieresis.ss01;
+sub agrave by agrave.ss01;
+sub amacron by amacron.ss01;
+sub aogonek by aogonek.ss01;
+sub aring by aring.ss01;
+sub atilde by atilde.ss01;
+sub g by g.ss01;
+sub gbreve by gbreve.ss01;
+sub gcircumflex by gcircumflex.ss01;
+sub gcommaaccent by gcommaaccent.ss01;
+sub gdotaccent by gdotaccent.ss01;
+sub ampersand by ampersand.ss01;
 ";
-tag = dlig;
+labels = (
+{
+language = dflt;
+value = "Italic Form";
+}
+);
+tag = ss01;
 },
 {
 automatic = 1;
@@ -1950,11 +1971,49 @@ sub Amacron by Amacron.ss10;
 sub Aogonek by Aogonek.ss10;
 sub Aring by Aring.ss10;
 sub Atilde by Atilde.ss10;
+sub B by B.ss10;
+sub D by D.ss10;
+sub Dcaron by Dcaron.ss10;
+sub E by E.ss10;
+sub Eacute by Eacute.ss10;
+sub Ebreve by Ebreve.ss10;
+sub Ecaron by Ecaron.ss10;
+sub Ecircumflex by Ecircumflex.ss10;
+sub Edieresis by Edieresis.ss10;
+sub Edotaccent by Edotaccent.ss10;
+sub Egrave by Egrave.ss10;
+sub Emacron by Emacron.ss10;
+sub Eogonek by Eogonek.ss10;
+sub F by F.ss10;
+sub G by G.ss10;
+sub Gbreve by Gbreve.ss10;
+sub Gcircumflex by Gcircumflex.ss10;
+sub Gdotaccent by Gdotaccent.ss10;
+sub M by M.ss10;
+sub P by P.ss10;
+sub T by T.ss10;
+sub Tbar by Tbar.ss10;
+sub Tcaron by Tcaron.ss10;
+sub Tcedilla by Tcedilla.ss10;
+sub Tcommaaccent by Tcommaaccent.ss10;
+sub U by U.ss10;
+sub Uacute by Uacute.ss10;
+sub Ubreve by Ubreve.ss10;
+sub Ucircumflex by Ucircumflex.ss10;
+sub Udieresis by Udieresis.ss10;
+sub Ugrave by Ugrave.ss10;
+sub Uhungarumlaut by Uhungarumlaut.ss10;
+sub Umacron by Umacron.ss10;
+sub Uogonek by Uogonek.ss10;
+sub Uring by Uring.ss10;
+sub Utilde by Utilde.ss10;
+sub V by V.ss10;
+sub X by X.ss10;
 ";
 labels = (
 {
 language = dflt;
-value = "";
+value = "Capital Letters Decorations";
 }
 );
 tag = ss10;
@@ -1995,6 +2054,18 @@ value = 222;
 {
 name = strikeoutSize;
 value = 65;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 976;
+},
+{
+name = typoDescender;
+value = -223;
 }
 );
 iconName = Light;
@@ -2062,6 +2133,18 @@ value = 222;
 {
 name = strikeoutSize;
 value = 65;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 976;
+},
+{
+name = typoDescender;
+value = -223;
 }
 );
 iconName = Light;
@@ -2130,6 +2213,18 @@ value = 222;
 {
 name = strikeoutSize;
 value = 65;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 976;
+},
+{
+name = typoDescender;
+value = -223;
 }
 );
 id = master01;
@@ -2196,6 +2291,18 @@ value = 222;
 {
 name = strikeoutSize;
 value = 65;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 976;
+},
+{
+name = typoDescender;
+value = -223;
 }
 );
 id = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
@@ -2263,6 +2370,18 @@ value = 222;
 {
 name = strikeoutSize;
 value = 65;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 976;
+},
+{
+name = typoDescender;
+value = -223;
 }
 );
 iconName = Bold;
@@ -2330,6 +2449,18 @@ value = 222;
 {
 name = strikeoutSize;
 value = 65;
+},
+{
+name = typoLineGap;
+value = 0;
+},
+{
+name = typoAscender;
+value = 976;
+},
+{
+name = typoDescender;
+value = -223;
 }
 );
 iconName = Bold;
@@ -2442,6 +2573,7 @@ axesValues = (
 isItalic = 1;
 linkStyle = Medium;
 name = "Medium Italic";
+weightClass = 500;
 },
 {
 axesValues = (

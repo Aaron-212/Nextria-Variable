@@ -1,1 +1,7 @@
-/.DS_Store
+.DS_Store
+*（自动存储）.glyphspackage
+fonts
+fonts-temp
+version.txt
+*.stamp
+install.sh

@@ -1,8 +1,9 @@
 {
+color = 8;
 glyphname = perthousand;
 layers = (
 {
-layerId = master01;
+background = {
 shapes = (
 {
 closed = 1;
@@ -128,10 +129,29 @@ nodes = (
 );
 }
 );
-width = 1097;
+};
+layerId = master01;
+shapes = (
+{
+ref = zero.numr;
 },
 {
-layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
+pos = (336,0);
+ref = fraction;
+},
+{
+pos = (447,0);
+ref = zero.dnom;
+},
+{
+pos = (783,0);
+ref = zero.dnom;
+}
+);
+width = 1119;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -257,10 +277,29 @@ nodes = (
 );
 }
 );
-width = 1075;
+};
+layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
+shapes = (
+{
+ref = zero.numr;
 },
 {
-layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
+pos = (326,0);
+ref = fraction;
+},
+{
+pos = (437,0);
+ref = zero.dnom;
+},
+{
+pos = (763,0);
+ref = zero.dnom;
+}
+);
+width = 1089;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -386,10 +425,29 @@ nodes = (
 );
 }
 );
-width = 1077.24091;
+};
+layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
+shapes = (
+{
+ref = zero.numr;
 },
 {
-layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
+pos = (326,0);
+ref = fraction;
+},
+{
+pos = (437,0);
+ref = zero.dnom;
+},
+{
+pos = (763,0);
+ref = zero.dnom;
+}
+);
+width = 1089;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -515,10 +573,29 @@ nodes = (
 );
 }
 );
-width = 1098;
+};
+layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
+shapes = (
+{
+ref = zero.numr;
 },
 {
-layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
+pos = (336,0);
+ref = fraction;
+},
+{
+pos = (447,0);
+ref = zero.dnom;
+},
+{
+pos = (783,0);
+ref = zero.dnom;
+}
+);
+width = 1119;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -644,10 +721,29 @@ nodes = (
 );
 }
 );
-width = 1113;
+};
+layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
+shapes = (
+{
+ref = zero.numr;
 },
 {
-layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
+pos = (344,0);
+ref = fraction;
+},
+{
+pos = (455,0);
+ref = zero.dnom;
+},
+{
+pos = (799,0);
+ref = zero.dnom;
+}
+);
+width = 1143;
+},
+{
+background = {
 shapes = (
 {
 closed = 1;
@@ -773,7 +869,26 @@ nodes = (
 );
 }
 );
-width = 1113;
+};
+layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
+shapes = (
+{
+ref = zero.numr;
+},
+{
+pos = (344,0);
+ref = fraction;
+},
+{
+pos = (455,0);
+ref = zero.dnom;
+},
+{
+pos = (799,0);
+ref = zero.dnom;
+}
+);
+width = 1143;
 }
 );
 unicode = 8240;

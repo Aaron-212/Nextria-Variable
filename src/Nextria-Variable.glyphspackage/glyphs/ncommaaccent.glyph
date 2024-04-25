@@ -10,13 +10,8 @@ shapes = (
 ref = n;
 },
 {
-closed = 1;
-nodes = (
-(332,-77,l),
-(243,-77,l),
-(212,-234,l),
-(262,-248,l)
-);
+pos = (51,0);
+ref = commaaccentcomb;
 }
 );
 width = 571;
@@ -28,13 +23,8 @@ shapes = (
 ref = n;
 },
 {
-closed = 1;
-nodes = (
-(353,-77,l),
-(233,-77,l),
-(207,-239,l),
-(280,-256,l)
-);
+pos = (54,0);
+ref = commaaccentcomb;
 }
 );
 width = 584;
@@ -46,13 +36,8 @@ shapes = (
 ref = n;
 },
 {
-closed = 1;
-nodes = (
-(296,-77,l),
-(172,-77,l),
-(114,-239,l),
-(188,-256,l)
-);
+pos = (56,0);
+ref = commaaccentcomb;
 }
 );
 width = 584;
@@ -64,13 +49,8 @@ shapes = (
 ref = n;
 },
 {
-closed = 1;
-nodes = (
-(276,-77,l),
-(183,-77,l),
-(123,-234,l),
-(175,-248,l)
-);
+pos = (52,0);
+ref = commaaccentcomb;
 }
 );
 width = 571;
@@ -82,13 +62,8 @@ shapes = (
 ref = n;
 },
 {
-closed = 1;
-nodes = (
-(319,-77,l),
-(250,-77,l),
-(216,-232,l),
-(251,-243,l)
-);
+pos = (48,0);
+ref = commaaccentcomb;
 }
 );
 width = 563;
@@ -100,13 +75,8 @@ shapes = (
 ref = n;
 },
 {
-closed = 1;
-nodes = (
-(264,-77,l),
-(191,-77,l),
-(130,-232,l),
-(167,-243,l)
-);
+pos = (49,0);
+ref = commaaccentcomb;
 }
 );
 width = 563;
