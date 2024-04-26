@@ -1,87 +1,83 @@
 {
-export = 0;
-glyphname = Lcaron.alt;
-kernRight = L;
+glyphname = Nacute.ss10;
 layers = (
 {
 layerId = master01;
 shapes = (
 {
-alignment = -1;
-ref = L.alt;
+ref = N.ss10;
 },
 {
-alignment = -1;
-pos = (230,-60);
-ref = caron.alt;
+pos = (270,185);
+ref = acutecomb;
 }
 );
-width = 680;
+width = 864;
 },
 {
 layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
 shapes = (
 {
-ref = L.alt;
+ref = N.ss10;
 },
 {
-pos = (696,0);
-ref = caron.alt;
+pos = (269,173);
+ref = acutecomb;
 }
 );
-width = 1196;
+width = 872;
 },
 {
 layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
 shapes = (
 {
-ref = L.alt;
+ref = N.ss10;
 },
 {
-pos = (696,0);
-ref = caron.alt;
+pos = (300,173);
+ref = acutecomb;
 }
 );
-width = 1196;
+width = 872;
 },
 {
 layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
 shapes = (
 {
-ref = L.alt;
+ref = N.ss10;
 },
 {
-pos = (680,0);
-ref = caron.alt;
+pos = (293,185);
+ref = acutecomb;
 }
 );
-width = 1180;
+width = 864;
 },
 {
 layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
 shapes = (
 {
-ref = L.alt;
+ref = N.ss10;
 },
 {
-pos = (670,0);
-ref = caron.alt;
+pos = (254,193);
+ref = acutecomb;
 }
 );
-width = 1170;
+width = 859;
 },
 {
 layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
 shapes = (
 {
-ref = L.alt;
+ref = N.ss10;
 },
 {
-pos = (670,0);
-ref = caron.alt;
+pos = (289,193);
+ref = acutecomb;
 }
 );
-width = 1170;
+width = 859;
 }
 );
 }

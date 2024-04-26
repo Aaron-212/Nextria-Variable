@@ -1,19 +1,16 @@
 {
-export = 0;
-glyphname = Racute.alt;
+glyphname = Rcaron.ss10;
 kernRight = R;
 layers = (
 {
 layerId = master01;
 shapes = (
 {
-alignment = -1;
-ref = R.alt;
+ref = R.ss10;
 },
 {
-alignment = -1;
 pos = (225,185);
-ref = acute;
+ref = caroncomb;
 }
 );
 width = 775;
@@ -22,66 +19,66 @@ width = 775;
 layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
 shapes = (
 {
-ref = R.alt;
+ref = R.ss10;
 },
 {
-pos = (798,0);
-ref = acute;
+pos = (244,173);
+ref = caroncomb;
 }
 );
-width = 1298;
+width = 798;
 },
 {
 layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
 shapes = (
 {
-ref = R.alt;
+ref = R.ss10;
 },
 {
-pos = (798,0);
-ref = acute;
+pos = (275,173);
+ref = caroncomb;
 }
 );
-width = 1298;
+width = 798;
 },
 {
 layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
 shapes = (
 {
-ref = R.alt;
+ref = R.ss10;
 },
 {
-pos = (775,0);
-ref = acute;
+pos = (258,185);
+ref = caroncomb;
 }
 );
-width = 1275;
+width = 775;
 },
 {
 layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
 shapes = (
 {
-ref = R.alt;
+ref = R.ss10;
 },
 {
-pos = (761,0);
-ref = acute;
+pos = (212,193);
+ref = caroncomb;
 }
 );
-width = 1261;
+width = 761;
 },
 {
 layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
 shapes = (
 {
-ref = R.alt;
+ref = R.ss10;
 },
 {
-pos = (761,0);
-ref = acute;
+pos = (247,193);
+ref = caroncomb;
 }
 );
-width = 1261;
+width = 761;
 }
 );
 }

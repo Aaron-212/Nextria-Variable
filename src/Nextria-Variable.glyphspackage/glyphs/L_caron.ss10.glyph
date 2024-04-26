@@ -1,86 +1,87 @@
 {
 export = 0;
-glyphname = Ntilde.alt;
+glyphname = Lcaron.ss10;
+kernRight = L;
 layers = (
 {
 layerId = master01;
 shapes = (
 {
 alignment = -1;
-ref = N.alt;
+ref = L.ss10;
 },
 {
 alignment = -1;
-pos = (269,185);
-ref = tilde;
+pos = (230,-60);
+ref = caron.alt;
 }
 );
-width = 864;
+width = 680;
 },
 {
 layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
 shapes = (
 {
-ref = N.alt;
+ref = L.ss10;
 },
 {
-pos = (872,0);
-ref = tilde;
+pos = (696,0);
+ref = caron.alt;
 }
 );
-width = 1372;
+width = 1196;
 },
 {
 layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
 shapes = (
 {
-ref = N.alt;
+ref = L.ss10;
 },
 {
-pos = (872,0);
-ref = tilde;
+pos = (696,0);
+ref = caron.alt;
 }
 );
-width = 1372;
+width = 1196;
 },
 {
 layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
 shapes = (
 {
-ref = N.alt;
+ref = L.ss10;
 },
 {
-pos = (864,0);
-ref = tilde;
+pos = (680,0);
+ref = caron.alt;
 }
 );
-width = 1364;
+width = 1180;
 },
 {
 layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
 shapes = (
 {
-ref = N.alt;
+ref = L.ss10;
 },
 {
-pos = (859,0);
-ref = tilde;
+pos = (670,0);
+ref = caron.alt;
 }
 );
-width = 1359;
+width = 1170;
 },
 {
 layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
 shapes = (
 {
-ref = N.alt;
+ref = L.ss10;
 },
 {
-pos = (859,0);
-ref = tilde;
+pos = (670,0);
+ref = caron.alt;
 }
 );
-width = 1359;
+width = 1170;
 }
 );
 }
