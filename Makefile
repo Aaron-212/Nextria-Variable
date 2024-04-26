@@ -20,26 +20,26 @@ build: build.stamp
 build.stamp: init.stamp
 	fontmake -g "src/Nextria-Variable.glyphspackage" -o ufo --output-dir "fonts-temp/master-ufo" --filter DecomposeTransformedComponentsFilter
 	python scripts/stat.py
-	fontmake -m "fonts-temp/master-ufo/NextriaVariable.designspace" -o variable --output-path "fonts-temp/variable/NextriaVariable[SRIF,slnt,wght].ttf" -f
-#	fontmake -m "fonts-temp/master-ufo/NextriaVariable.designspace" -o variable-cff2 --output-path "fonts-temp/variable/NextriaSC[SRIF,slnt,wght].otf"
+	fontmake -m "fonts-temp/master-ufo/Nextria.designspace" -o variable --output-path "fonts-temp/variable/Nextria[SRIF,slnt,wght].ttf" -f
+#	fontmake -m "fonts-temp/master-ufo/Nextria.designspace" -o variable-cff2 --output-path "fonts-temp/variable/Nextria[SRIF,slnt,wght].otf"
 	mkdir fonts
 	mkdir fonts/variable
-	gftools fix-nonhinting "fonts-temp/variable/NextriaVariable[SRIF,slnt,wght].ttf" "fonts/variable/NextriaVariable[SRIF,slnt,wght].ttf"
+	gftools fix-nonhinting "fonts-temp/variable/Nextria[SRIF,slnt,wght].ttf" "fonts/variable/Nextria[SRIF,slnt,wght].ttf"
 	touch build.stamp
 
 zip: build.stamp
-	cp -rf fonts NextriaVariable
-	zip -r NextriaVariable.zip NextriaVariable
-	rm -rf NextriaVariable
+	cp -rf fonts Nextria
+	zip -r Nextria.zip Nextria
+	rm -rf Nextria
 
 
 # fontbakery check-adobefonts "fonts/variable/InterNumeric[wght,RDNS].ttf"
 
 test: build.stamp
-	fontbakery check-universal "fonts/variable/NextriaVariable[SRIF,slnt,wght].ttf"
+	fontbakery check-universal "fonts/variable/Nextria[SRIF,slnt,wght].ttf"
 
 test-google: build.stamp
-	fontbakery check-googlefonts "fonts/variable/NextriaVariable[SRIF,slnt,wght].ttf"
+	fontbakery check-googlefonts "fonts/variable/Nextria[SRIF,slnt,wght].ttf"
 
 clean:
 	rm -rf fonts

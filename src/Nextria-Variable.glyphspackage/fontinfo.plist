@@ -9,10 +9,6 @@ tag = wght;
 {
 name = Slant;
 tag = slnt;
-},
-{
-name = Serif;
-tag = SRIF;
 }
 );
 customParameters = (
@@ -32,9 +28,6 @@ value = 1;
 {
 name = "Axis Mappings";
 value = {
-SRIF = {
-0 = 0;
-};
 slnt = {
 -10 = -10;
 0 = 0;
@@ -42,6 +35,8 @@ slnt = {
 wght = {
 200 = 200;
 400 = 400;
+490 = 500;
+590 = 600;
 700 = 700;
 };
 };
@@ -61,7 +56,7 @@ tag = slng;
 }
 );
 date = "2024-04-23 15:42:09 +0000";
-familyName = "Nextria Variable";
+familyName = Nextria;
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;
@@ -108,22 +103,43 @@ tag = ccmp;
 {
 automatic = 1;
 code = "script latn;
-language ROM;
+language AZE;
 lookup locl_latn_0 {
+	sub i by idotaccent;
+} locl_latn_0;
+language CRT;
+lookup locl_latn_0;
+language KAZ;
+lookup locl_latn_0;
+language TAT;
+lookup locl_latn_0;
+language TRK;
+lookup locl_latn_0;
+
+script latn;
+language ROM;
+lookup locl_latn_1 {
 	sub Scedilla by Scommaaccent;
 	sub scedilla by scommaaccent;
 	sub Tcedilla by Tcommaaccent;
 	sub tcedilla by tcommaaccent;
-} locl_latn_0;
+} locl_latn_1;
 language MOL;
-lookup locl_latn_0;
+lookup locl_latn_1;
 
 script latn;
 language CAT;
-lookup locl_latn_1 {
+lookup locl_latn_2 {
 	sub  l' periodcentered' l by ldot;
 	sub  L' periodcentered' L by Ldot;
-} locl_latn_1;
+} locl_latn_2;
+
+script latn;
+language NLD;
+lookup locl_latn_3 {
+	sub iacute j' by jacute;
+	sub Iacute J' by Jacute;
+} locl_latn_3;
 ";
 tag = locl;
 },
@@ -2062,29 +2078,20 @@ fontMaster = (
 {
 axesValues = (
 200,
-0,
 0
 );
 customParameters = (
 {
 name = hheaAscender;
-value = 977;
+value = 940;
 },
 {
 name = hheaDescender;
-value = -223;
+value = -413;
 },
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-name = winAscent;
-value = 998;
-},
-{
-name = winDescent;
-value = 256;
 },
 {
 name = strikeoutPosition;
@@ -2100,11 +2107,19 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 977;
+value = 940;
 },
 {
 name = typoDescender;
-value = -223;
+value = -413;
+},
+{
+name = winAscent;
+value = 1180;
+},
+{
+name = winDescent;
+value = -453;
 }
 );
 iconName = Light;
@@ -2141,29 +2156,20 @@ stemValues = (
 {
 axesValues = (
 200,
--10,
-0
+-10
 );
 customParameters = (
 {
 name = hheaAscender;
-value = 977;
+value = 940;
 },
 {
 name = hheaDescender;
-value = -223;
+value = -413;
 },
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-name = winAscent;
-value = 998;
-},
-{
-name = winDescent;
-value = 256;
 },
 {
 name = strikeoutPosition;
@@ -2179,11 +2185,19 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 977;
+value = 940;
 },
 {
 name = typoDescender;
-value = -223;
+value = -413;
+},
+{
+name = winAscent;
+value = 1180;
+},
+{
+name = winDescent;
+value = -453;
 }
 );
 iconName = Light;
@@ -2212,7 +2226,7 @@ pos = -213;
 pos = 10;
 }
 );
-name = "Light Slant";
+name = "Light Italic";
 stemValues = (
 68,
 59
@@ -2221,29 +2235,20 @@ stemValues = (
 {
 axesValues = (
 400,
-0,
 0
 );
 customParameters = (
 {
 name = hheaAscender;
-value = 977;
+value = 940;
 },
 {
 name = hheaDescender;
-value = -223;
+value = -413;
 },
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-name = winAscent;
-value = 998;
-},
-{
-name = winDescent;
-value = 256;
 },
 {
 name = strikeoutPosition;
@@ -2259,11 +2264,19 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 977;
+value = 940;
 },
 {
 name = typoDescender;
-value = -223;
+value = -413;
+},
+{
+name = winAscent;
+value = 1180;
+},
+{
+name = winDescent;
+value = -453;
 }
 );
 id = master01;
@@ -2299,29 +2312,20 @@ stemValues = (
 {
 axesValues = (
 400,
--10,
-0
+-10
 );
 customParameters = (
 {
 name = hheaAscender;
-value = 977;
+value = 940;
 },
 {
 name = hheaDescender;
-value = -223;
+value = -413;
 },
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-name = winAscent;
-value = 998;
-},
-{
-name = winDescent;
-value = 256;
 },
 {
 name = strikeoutPosition;
@@ -2337,11 +2341,19 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 977;
+value = 940;
 },
 {
 name = typoDescender;
-value = -223;
+value = -413;
+},
+{
+name = winAscent;
+value = 1180;
+},
+{
+name = winDescent;
+value = -453;
 }
 );
 id = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
@@ -2369,7 +2381,7 @@ pos = -213;
 pos = 10;
 }
 );
-name = Slant;
+name = Italic;
 stemValues = (
 90,
 81
@@ -2378,29 +2390,20 @@ stemValues = (
 {
 axesValues = (
 700,
-0,
 0
 );
 customParameters = (
 {
 name = hheaAscender;
-value = 977;
+value = 940;
 },
 {
 name = hheaDescender;
-value = -223;
+value = -413;
 },
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-name = winAscent;
-value = 998;
-},
-{
-name = winDescent;
-value = 256;
 },
 {
 name = strikeoutPosition;
@@ -2416,11 +2419,19 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 977;
+value = 940;
 },
 {
 name = typoDescender;
-value = -223;
+value = -413;
+},
+{
+name = winAscent;
+value = 1180;
+},
+{
+name = winDescent;
+value = -453;
 }
 );
 iconName = Bold;
@@ -2457,29 +2468,20 @@ stemValues = (
 {
 axesValues = (
 700,
--10,
-0
+-10
 );
 customParameters = (
 {
 name = hheaAscender;
-value = 977;
+value = 940;
 },
 {
 name = hheaDescender;
-value = -223;
+value = -413;
 },
 {
 name = hheaLineGap;
 value = 0;
-},
-{
-name = winAscent;
-value = 998;
-},
-{
-name = winDescent;
-value = 256;
 },
 {
 name = strikeoutPosition;
@@ -2495,11 +2497,19 @@ value = 0;
 },
 {
 name = typoAscender;
-value = 977;
+value = 940;
 },
 {
 name = typoDescender;
-value = -223;
+value = -413;
+},
+{
+name = winAscent;
+value = 1180;
+},
+{
+name = winDescent;
+value = -453;
 }
 );
 iconName = Bold;
@@ -2528,7 +2538,7 @@ pos = -213;
 pos = 10;
 }
 );
-name = "Bold Slant";
+name = "Bold Italic";
 stemValues = (
 123,
 113
@@ -2539,7 +2549,6 @@ instances = (
 {
 axesValues = (
 200,
-0,
 0
 );
 name = ExtraLight;
@@ -2547,18 +2556,7 @@ weightClass = 200;
 },
 {
 axesValues = (
-200,
--10,
-0
-);
-linkStyle = ExtraLight;
-name = "ExtraLight Slant";
-weightClass = 200;
-},
-{
-axesValues = (
 300,
-0,
 0
 );
 name = Light;
@@ -2566,35 +2564,14 @@ weightClass = 300;
 },
 {
 axesValues = (
-300,
--10,
-0
-);
-linkStyle = Light;
-name = "Light Slant";
-weightClass = 300;
-},
-{
-axesValues = (
 400,
-0,
 0
 );
 name = Regular;
 },
 {
 axesValues = (
-400,
--10,
-0
-);
-linkStyle = Regular;
-name = Slant;
-},
-{
-axesValues = (
 500,
-0,
 0
 );
 name = Medium;
@@ -2602,18 +2579,7 @@ weightClass = 500;
 },
 {
 axesValues = (
-500,
--10,
-0
-);
-linkStyle = Medium;
-name = "Medium Slant";
-weightClass = 500;
-},
-{
-axesValues = (
 600,
-0,
 0
 );
 name = SemiBold;
@@ -2621,18 +2587,7 @@ weightClass = 600;
 },
 {
 axesValues = (
-600,
--10,
-0
-);
-linkStyle = SemiBold;
-name = "SemiBold Slant";
-weightClass = 600;
-},
-{
-axesValues = (
 700,
-0,
 0
 );
 isBold = 1;
@@ -2641,13 +2596,62 @@ weightClass = 700;
 },
 {
 axesValues = (
+200,
+-10
+);
+isItalic = 1;
+linkStyle = ExtraLight;
+name = "ExtraLight Italic";
+weightClass = 200;
+},
+{
+axesValues = (
+300,
+-10
+);
+isItalic = 1;
+linkStyle = Light;
+name = "Light Italic";
+weightClass = 300;
+},
+{
+axesValues = (
+400,
+-10
+);
+isItalic = 1;
+linkStyle = Regular;
+name = Italic;
+},
+{
+axesValues = (
+500,
+-10
+);
+isItalic = 1;
+linkStyle = Medium;
+name = "Medium Italic";
+weightClass = 500;
+},
+{
+axesValues = (
+600,
+-10
+);
+isItalic = 1;
+linkStyle = SemiBold;
+name = "SemiBold Italic";
+weightClass = 600;
+},
+{
+axesValues = (
 700,
--10,
-0
+-10
 );
 isBold = 1;
+isItalic = 1;
 linkStyle = Bold;
-name = "Bold Slant";
+name = "Bold Italic";
 weightClass = 700;
 }
 );
@@ -11195,6 +11199,19 @@ value = Aaron212;
 {
 key = designerURL;
 value = "https://aaron212.top/";
+},
+{
+key = familyNames;
+values = (
+{
+language = dflt;
+value = "Nextria Variable";
+},
+{
+language = DEU;
+value = "Nextria Veränderlich";
+}
+);
 },
 {
 key = licenses;
