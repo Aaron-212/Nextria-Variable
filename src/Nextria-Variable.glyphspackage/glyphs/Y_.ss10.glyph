@@ -1,9 +1,24 @@
 {
-export = 0;
-glyphname = Y.alt;
+glyphname = Y.ss10;
 kernRight = Y;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (489,0);
+},
+{
+name = top;
+pos = (489,680);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (489,358);
+}
+);
 layerId = master01;
 shapes = (
 {
@@ -32,6 +47,22 @@ nodes = (
 width = 746;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (497,0);
+},
+{
+name = top;
+pos = (497,680);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (497,390);
+}
+);
 layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
 shapes = (
 {
@@ -60,6 +91,22 @@ nodes = (
 width = 763;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (445,0);
+},
+{
+name = top;
+pos = (565,680);
+}
+);
+guides = (
+{
+angle = 80;
+pos = (514,391);
+}
+);
 layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
 shapes = (
 {
@@ -88,6 +135,22 @@ nodes = (
 width = 763.09765;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (427,0);
+},
+{
+name = top;
+pos = (547,680);
+}
+);
+guides = (
+{
+angle = 80;
+pos = (490,358);
+}
+);
 layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
 shapes = (
 {
@@ -116,7 +179,17 @@ nodes = (
 width = 734;
 },
 {
-layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
+anchors = (
+{
+name = bottom;
+pos = (483,0);
+},
+{
+name = top;
+pos = (483,680);
+}
+);
+background = {
 shapes = (
 {
 closed = 1;
@@ -140,14 +213,71 @@ nodes = (
 );
 }
 );
+};
+guides = (
+{
+angle = 90;
+pos = (483,337);
+}
+);
+layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
+shapes = (
+{
+closed = 1;
+nodes = (
+(78,422,l),
+(78,553,o),
+(136,621,o),
+(270,621,c),
+(270,621,l),
+(448,270,l),
+(448,0,l),
+(513,0,l),
+(513,270,l),
+(720,680,l),
+(653,680,l),
+(483,337,l),
+(310,680,l),
+(270,680,ls),
+(97,680,o),
+(14,586,o),
+(14,422,c)
+);
+}
+);
 width = 736;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (416,0);
+},
+{
+name = top;
+pos = (536,680);
+}
+);
+guides = (
+{
+angle = 80;
+pos = (475,337);
+}
+);
 layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
 shapes = (
 {
 closed = 1;
 nodes = (
+(109,422,l),
+(133,553,o),
+(182,621,o),
+(316,621,c),
+(316,621,l),
+(433,271,l),
+(385,0,l),
+(450,0,l),
+(498,270,l),
 (777,680,l),
 (705,680,l),
 (475,337,l),
@@ -155,15 +285,7 @@ nodes = (
 (327,680,ls),
 (157,680,o),
 (75,597,o),
-(45,422,c),
-(109,422,l),
-(133,553,o),
-(182,621,o),
-(316,621,c),
-(433,271,l),
-(385,0,l),
-(450,0,l),
-(498,270,l)
+(45,422,c)
 );
 }
 );

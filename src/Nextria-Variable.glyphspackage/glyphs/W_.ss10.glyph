@@ -1,9 +1,24 @@
 {
-export = 0;
-glyphname = W.alt;
+glyphname = W.ss10;
 kernRight = W.alt;
 layers = (
 {
+anchors = (
+{
+name = bottom;
+pos = (654,0);
+},
+{
+name = top;
+pos = (654,680);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (654,556);
+}
+);
 layerId = master01;
 shapes = (
 {
@@ -44,6 +59,22 @@ nodes = (
 width = 1087;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (659,0);
+},
+{
+name = top;
+pos = (659,680);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (659,506);
+}
+);
 layerId = "D73FB141-FF25-4743-A62C-F58A1C57CDB9";
 shapes = (
 {
@@ -84,6 +115,22 @@ nodes = (
 width = 1099;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (614,0);
+},
+{
+name = top;
+pos = (734,680);
+}
+);
+guides = (
+{
+angle = 80;
+pos = (703,506);
+}
+);
 layerId = "7D2027AC-297A-4D58-8EA2-55B17EBAD0F9";
 shapes = (
 {
@@ -124,6 +171,22 @@ nodes = (
 width = 1099;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (610,0);
+},
+{
+name = top;
+pos = (730,680);
+}
+);
+guides = (
+{
+angle = 80;
+pos = (708,553);
+}
+);
 layerId = "C21AB58A-0F03-4AE0-976E-29AD56D058A6";
 shapes = (
 {
@@ -164,6 +227,22 @@ nodes = (
 width = 1087;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (653,0);
+},
+{
+name = top;
+pos = (653,680);
+}
+);
+guides = (
+{
+angle = 90;
+pos = (653,587);
+}
+);
 layerId = "552872BC-8C7A-453E-A7A0-DCEE3439D276";
 shapes = (
 {
@@ -204,6 +283,22 @@ nodes = (
 width = 1080;
 },
 {
+anchors = (
+{
+name = bottom;
+pos = (610,0);
+},
+{
+name = top;
+pos = (730,680);
+}
+);
+guides = (
+{
+angle = 80;
+pos = (713,584);
+}
+);
 layerId = "EEA6B9EF-1944-48F9-8F0D-85D16B14CE21";
 shapes = (
 {
